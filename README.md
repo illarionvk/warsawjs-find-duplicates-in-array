@@ -18,6 +18,12 @@ Coffescript sources are in src/ folder, compiled JS files are in lib/
 ├── src/
 │   ├── data.coffee
 │   └── find-duplicates.coffee
+├── output/
+│   ├── 1-groupby.json
+│   ├── 2-pair.json
+│   ├── 3-filter.json
+│   └── 4-map.json
+├── output.txt
 ├── ...
 └── index.js
 ```
