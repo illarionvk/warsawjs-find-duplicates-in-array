@@ -1,0 +1,25 @@
+node index.js
+----------------------------------------
+Duplicates found:
+
+[
+  "TSHIRT-0-Q",
+  "TSHIRT-2-O",
+  "TSHIRT-2-P",
+  "TSHIRT-3-X",
+  "TSHIRT-3-Z",
+  "TSHIRT-4-B",
+  "TSHIRT-4-N",
+  "TSHIRT-4-U",
+  "TSHIRT-5-B",
+  "TSHIRT-5-J",
+  "TSHIRT-5-N",
+  "TSHIRT-6-E",
+  "TSHIRT-6-X",
+  "TSHIRT-7-N",
+  "TSHIRT-8-P",
+  "TSHIRT-9-J",
+  "TSHIRT-9-S"
+]
+
+Duplicates count: 17
