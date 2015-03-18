@@ -6,6 +6,27 @@ To run, install Node and type in the terminal:
 make install && make build && make start
 ```
 
+## Solution:
+
+```coffee
+findDuplicates = (skus) ->
+  return _.chain(skus)
+    .groupBy( (sku) ->
+      return sku
+    )
+    .pairs()
+    .filter( (item) ->
+      return item[1].length > 1
+    )
+    .map( (item) ->
+      return item[0]
+    )
+    .sortBy( (sku) ->
+      return sku
+    )
+    .value()
+```
+
 ## File structure
 
 Coffescript sources are in src/ folder, compiled JS files are in lib/
